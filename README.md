@@ -1,5 +1,20 @@
 # git-lab
-# multiply: returns a * b
-# divide: returns a / b
-# sync demo
-Conflicting line from main
+
+Учебный проект по Git и GitHub: калькулятор на Python.
+
+## Функции (calc.py)
+
+- `add(a, b)`: сложение, возвращает a + b
+- `sub(a, b)`: вычитание, возвращает a - b
+- `mul(a, b)`: умножение, возвращает a * b
+- `div(a, b)`: деление, возвращает a / b
+- `power(a, b)`: возведение в степень, возвращает a ** b
+
+## Запуск тестов
+
+Установить pytest: `pip install pytest`, затем запустить: `pytest`.
+
+## Процесс разработки
+
+Изменения попадают в `main` только через Pull Request.
+Для каждого PR автоматически запускается CI (GitHub Actions).
